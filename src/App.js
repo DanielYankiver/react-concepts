@@ -18,12 +18,18 @@ function App() {
           WELCOME  
         </div>
         <div className='animation-1-container'>
-          Animation goes here: 
-          <div className='animation-1-ideas'>
-            <div>Elevator doors.. </div>
+          <div className='animation-1-title'>ANIMATION I</div>
+          
+          {/* <div className='animation-1-ideas'>
+            <div>Elevator doors...</div>
             <div>Garage door....</div>
             <div>Space Ship door...</div>
             <div>Rumble door..</div>
+          </div> */}
+          <div className='animation-1-center'>
+            <div className='animation-1'>
+              
+            </div>
           </div>
         </div>
         <div className='video-rocketeer-container'>

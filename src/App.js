@@ -13,9 +13,26 @@ function App() {
           Learn React
         </a> */}
       </header>
-      <body className='main-page'>
-        Hi I am the main page 
-      </body>
+      <div className='main-page'>
+        <div className='main-page-title'>
+          WELCOME  
+        </div>
+        <div className='animation-1-container'>
+          Animation goes here: 
+          <div className='animation-1-ideas'>
+            <div>Elevator doors.. </div>
+            <div>Garage door....</div>
+            <div>Space Ship door...</div>
+            <div>Rumble door..</div>
+          </div>
+        </div>
+        <div className='video-rocketeer-container'>
+          Animate the border of this embed:
+          <div className='video-rocketeer-embed'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CG4hxngTPbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

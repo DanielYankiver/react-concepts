@@ -48,6 +48,47 @@
 
 .main-page {
   background-color: #282c34;
-  height: 100vh;
-  border: 2px solid hotpink;
+  height: 300vh;
+  border: 2px solid hotpink; 
 }
+
+.main-page-title {
+  color: greenyellow;
+  height: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FFFF00;
+}
+
+.animation-1-container {
+  border: 2px solid #61dafb;
+  height: 20%;
+  color: aliceblue;
+  text-align: center;
+}
+
+.animation-1-ideas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+
+
+
+
+.video-rocketeer-container{
+  height: 20%;
+  border: 2px solid #00FF00;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 5%;
+}
+
+.video-rocketeer-embed {
+  display: flex;  
+  justify-content: center;
+  margin-top: 5%;
+} 

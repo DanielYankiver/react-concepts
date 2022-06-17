@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import weather from './weather.png'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           </div> */}
           <div className='animation-1-center'>
             <div className='animation-1'>
+              <img className='weather-png' src={weather} />
               
             </div>
           </div>

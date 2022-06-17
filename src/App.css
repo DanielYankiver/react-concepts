@@ -111,6 +111,11 @@
   animation-timing-function: ease-in-out; */
 }
 
+.weather-png {
+  width: 90%;
+  opacity: 70%;
+}
+
 
 /* *************** */
 

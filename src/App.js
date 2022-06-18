@@ -7,13 +7,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://imagedelivery.net/nADYkEXSJPd0UjYrv7RXLw/73a53668-b492-41a1-6180-358d39776000/public" className="App-logo" alt="logo" />
+        {/* <img src="https://imagedelivery.net/nADYkEXSJPd0UjYrv7RXLw/73a53668-b492-41a1-6180-358d39776000/public" className="App-logo" alt="logo" /> */}
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a> */}
+         <div className='animation-2-center'>
+            <div className='animation-2'>
+              <img className='ufo-png' src={ufo} /> 
+            </div>
+          </div>
       </header>
       <div className='main-page'>
         <div className='main-page-title'>
@@ -33,11 +38,7 @@ function App() {
               <img className='weather-png' src={weather} /> 
             </div>
           </div>
-          <div className='animation-2-center'>
-            <div className='animation-2'>
-              <img className='ufo-png' src={ufo} /> 
-            </div>
-          </div>
+         
         </div>
         <div className='video-rocketeer-container'>
           Animate the border of this embed:

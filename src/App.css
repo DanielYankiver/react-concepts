@@ -66,6 +66,7 @@
   height: 600px;
   color: aliceblue;
   text-align: center;
+  padding-right: 100px;
 }
 
 .animation-1-title {
@@ -84,11 +85,11 @@
 } */
 
 @keyframes animate-1 {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0%   {background-color:greenyellow; left:0%; }
+  25%  {background-color:hotpink; left:50%; }
+  50%  {background-color:#FFFF00; left:100%; }
+  75%  {background-color:#61dafb; left:50%; }
+  100% {background-color:greenyellow; left:0%; }
 }
 
 .animation-1-center {
@@ -103,7 +104,7 @@
   border-radius: 50px;
   position: relative;
   background-color: red;
-  animation: animate-1 4s 9 alternate ease-in-out;
+  animation: animate-1 6s infinite alternate ease-in-out;
   /* animation-name: animate-1;
   animation-duration: 4s;
   animation-iteration-count: infinite;

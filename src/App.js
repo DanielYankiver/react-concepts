@@ -19,7 +19,7 @@ function App() {
           WELCOME  
         </div>
         <div className='animation-1-container'>
-          <div className='animation-1-title'>ANIMATION I</div>
+          {/* <div className='animation-1-title'>ANIMATION I</div> */}
           
           {/* <div className='animation-1-ideas'>
             <div>Elevator doors...</div>
